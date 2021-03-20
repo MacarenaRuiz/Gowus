@@ -7,7 +7,7 @@ const BodyParser = require("body-parser");
 const ObjectId = require("mongodb").ObjectID;
 
 
-const Port=process.env.Port||3000;
+const Port=process.env.PORT||3000;
 //const URI="mongodb+srv://gowusUser:Vc805778@cluster0.mjyi4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const URI= "mongodb+srv://gowusUser:Vc805778@cluster0.mjyi4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
